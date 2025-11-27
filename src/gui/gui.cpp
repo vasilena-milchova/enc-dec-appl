@@ -281,7 +281,7 @@ void createGUI(int argc, char** argv) {
     output_display_dec->labelsize(13);
     output_display_dec->textsize(11);
     output_display_dec->box(FL_FLAT_BOX);
-    output_display_dec->color(0xF0F0F0FF);
+    output_display_dec->color(COLOR_BG);
     output_display_dec->wrap();
 
     // Decrypt button
